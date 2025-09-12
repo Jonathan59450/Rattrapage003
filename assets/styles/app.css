@@ -1,3 +1,45 @@
 body {
-    background-color: skyblue;
+    background-color: rgb(255, 255, 255);
+     width: 80%;
+      margin: 0 auto;
 }
+
+header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 50px; 
+    border: 2px solid black; 
+    width: 100%; 
+    margin: 20px auto; 
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 80px; 
+    width: auto; 
+     margin-right: auto;
+}
+
+.header01 {
+    display: flex; 
+    align-items: center;
+    gap: 20px; 
+}
+.exo {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 100px; 
+    border: 2px solid black; 
+    width: 100%; 
+    margin: 20px auto; 
+    color: white;
+    background-color: black;
+}
+
+
+
